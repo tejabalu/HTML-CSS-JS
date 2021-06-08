@@ -8,7 +8,11 @@ h1 {
 }
 
 span h2 {
-  margin: 0%;
+  border: 2px solid black;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  margin-top: -2px;
+  margin-right: -2px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
