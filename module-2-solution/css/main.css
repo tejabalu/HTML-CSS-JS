@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+:root {
+  font-family: 'Comic Neue';
+}
+
+h1 {
+  text-align: center;
+}
+
+span h2 {
+  margin: 0%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+span .one {
+  background-color: aqua;
+}
+
+span .two {
+  background-color: greenyellow;
+}
+
+span .three {
+  background-color: gold;
+}
+
+p {
+  margin-top: 40px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.itembox {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: gray;
+  border: solid black;
+  margin: 5px;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.break1.break2 {
+  display: none;
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .break1 {
+    display: block;
+    width: 0;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .break1 {
+    display: block;
+    width: 0;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .break2 {
+    display: block;
+    width: 0;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
