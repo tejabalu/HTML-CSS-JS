@@ -65,24 +65,21 @@ p {
 }
 
 @media (min-width: 767px) and (max-width: 992px) {
-  .break1 {
+  .itembox.third {
     display: block;
-    width: 0;
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
 }
 
 @media (max-width: 767px) {
-  .break1 {
+  .itembox.third {
     display: block;
-    width: 0;
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
-  .break2 {
+  .itembox.second {
     display: block;
-    width: 0;
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
