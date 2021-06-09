@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <div class="navheading">
+                <h1 class="homeicon">Food LLC</h1>
+                <img onclick="myfunction()" id="openmenuicon" class="openmenuicon" src="menu.svg" alt="Open Menu">
+            </div>
+
+            <div id="navmenu" class="navmenu">
+                <div class="navmenuitems"><p class="navmenufont">Fried rice</p></div>
+                <div class="navmenuitems"><p class="navmenufont">Noodles</p></div>
+                <div class="navmenuitems"><p class="navmenufont">Manchurian</p></div>
+            </div>
+        </div>
+    </div>
+
+    <section class="body">
+        <h1>Our Menu</h1>
+        <div class="container1">
+            <div id="friedrice" class="ingredients">
+                <h2>Fried Rice</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quam quis, aliquid quo aut officia consectetur provident. Eos tenetur eius nemo dolore, repellendus sed cupiditate earum facere quasi ea cum.</p>
+            </div>
+            <div id="noodles" class="ingredients">
+                <h2>Noodles</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quam quis, aliquid quo aut officia consectetur provident. Eos tenetur eius nemo dolore, repellendus sed cupiditate earum facere quasi ea cum.</p>
+            </div>
+            <div id="manchurian" class="ingredients">
+                <h2>Manchurian</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quam quis, aliquid quo aut officia consectetur provident. Eos tenetur eius nemo dolore, repellendus sed cupiditate earum facere quasi ea cum.</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function myfunction() {
+            var x = document.getElementById("navmenu");
+            if (x.style.display === "none") {
+                x.style.display = "block"
+            }
+            else {
+                x.style.display = "none"
+            }
+        }
+    </script>
+</body>
+</html>

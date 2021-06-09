@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+
+:root {
+    font-family: 'Comic Neue';
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    .container {
+        .navheading {
+            display: flex;
+            background-color: gray;
+                
+            h1 {
+                margin: 5px auto 5px 5px;
+            }
+            .openmenuicon {
+                margin-left: auto;
+            }
+            
+        }
+
+        .navmenu {
+            display: none;
+            .navmenuitems {
+                &:hover {
+                    font-weight: 700;
+                }
+                text-align: center;
+                border: solid black 1px;
+                .navmenufont {
+                    margin-top: 8px;
+                    margin-bottom: 8px;
+                }
+            }
+        }
+    }
+}
+
+section {
+    h1 {
+        text-align: center;
+    }
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ingredients {
+    background-color: gray;
+    text-align: center;
+    margin: 5px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+@media (max-width: 992px) and (min-width: 700px) {
+    #manchurian {
+        display: block;
+        flex: 100%;
+    }
+}
+
+@media (max-width :700px) {
+    #manchurian, #noodles {
+        display: block;
+        flex: 100%;
+    }
+}
+
+.navbar {
+    .container {
+        .navmenu.mobileclick {
+            display: block;
+        }
+    }
+}

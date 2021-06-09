@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap");
+:root {
+  font-family: 'Comic Neue';
+}
+
+body {
+  margin: 0;
+}
+
+.navbar .container .navheading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: gray;
+}
+
+.navbar .container .navheading h1 {
+  margin: 5px auto 5px 5px;
+}
+
+.navbar .container .navheading .openmenuicon {
+  margin-left: auto;
+}
+
+.navbar .container .navmenu {
+  display: none;
+}
+
+.navbar .container .navmenu .navmenuitems {
+  text-align: center;
+  border: solid black 1px;
+}
+
+.navbar .container .navmenu .navmenuitems:hover {
+  font-weight: 700;
+}
+
+.navbar .container .navmenu .navmenuitems .navmenufont {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+section h1 {
+  text-align: center;
+}
+
+.container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.ingredients {
+  background-color: gray;
+  text-align: center;
+  margin: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+@media (max-width: 992px) and (min-width: 700px) {
+  #manchurian {
+    display: block;
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  #manchurian, #noodles {
+    display: block;
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+}
+
+.navbar .container .navmenu.mobileclick {
+  display: block;
+}
+/*# sourceMappingURL=styles.css.map */
