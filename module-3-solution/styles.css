@@ -19,6 +19,7 @@ body {
 }
 
 .navbar .container .navheading .openmenuicon {
+  display: none;
   margin-left: auto;
 }
 
@@ -64,6 +65,9 @@ section h1 {
 }
 
 @media (max-width: 992px) and (min-width: 700px) {
+  #openmenuicon {
+    display: inline;
+  }
   #manchurian {
     display: block;
     -webkit-box-flex: 100%;
@@ -73,6 +77,9 @@ section h1 {
 }
 
 @media (max-width: 700px) {
+  #openmenuicon {
+    display: inline;
+  }
   #manchurian, #noodles {
     display: block;
     -webkit-box-flex: 100%;
