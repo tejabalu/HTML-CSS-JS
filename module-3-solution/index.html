@@ -51,6 +51,12 @@
                 x.style.display = "none"
             }
         }
+
+        document.onclick = function(window){
+            if (window.target.id !== "openmenuicon") {
+                document.getElementById("navmenu").style.display = "none";
+            }
+        }
     </script>
 </body>
 </html>
